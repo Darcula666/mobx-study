@@ -18,3 +18,4 @@ jobs:
         with:
           ACCESS_TOKEN : ${{ secrets.MOBX }}
           FOLDER: build
+          repository-name: github.com/Darcula666/mobx-study
