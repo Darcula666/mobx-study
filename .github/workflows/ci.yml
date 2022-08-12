@@ -20,3 +20,4 @@ jobs:
         with:
           ACCESS_TOKEN : ${{ secrets.MOBX }}
           FOLDER: build
+          bransh: main
