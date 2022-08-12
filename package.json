@@ -41,5 +41,6 @@
     "@babel/plugin-proposal-decorators": "^7.16.5",
     "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.1.8"
-  }
+  },
+  "homepage": "https://Darcula666.github.io/mobx-study"
 }

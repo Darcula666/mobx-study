@@ -4,8 +4,8 @@ import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { makeAutoObservable} from 'mobx'
-import { observer } from 'mobx-react'
-
+import { observer} from 'mobx-react'
+import Base from './hooks/base'
 // Model the application state.
 class Timer {
   secondsPassed = 0
@@ -31,9 +31,7 @@ const TimerView = observer(({ timer }) => (
 ))
 
 ReactDOM.render(
-  <React.StrictMode>
-    <TimerView timer={myTimer} />
-  </React.StrictMode>,
+  <Base/>,
   document.getElementById('root')
 );
 
