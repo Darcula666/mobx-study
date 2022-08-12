@@ -16,5 +16,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          ssh-key : ${{ secrets.MOBX }}
+          token : ${{ secrets.MOBX }}
           FOLDER: build
