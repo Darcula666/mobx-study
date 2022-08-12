@@ -16,5 +16,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          token : ${{ secrets.MOBX }}
+          ACCESS_TOKEN : ${{ secrets.MOBX }}
           FOLDER: build
